@@ -1,0 +1,53 @@
+{
+  "version": 0.0,
+  "method": "SWiFT-IR",
+  "data": {
+    "source_path": "",
+    "destination_path": "DA5_aligned",
+    "pairwise_alignment": false,
+    "defaults": {
+      "align_to_next_pars": {
+        "window_size": 1024,
+        "addx": 800,
+        "addy": 800,
+        "output_level": 0
+      }
+    },
+    "imagestack": [
+      { 
+        "skip": false,
+        "filename": "DA5_1200a.jpg",
+        "align_to_next_pars": {
+          "window_size": 1024,
+          "addx": 500,
+          "addy": 500,
+          "output_level": 5
+        }
+      },
+      { 
+        "skip": false,
+        "filename": "DA5_1200b.jpg",
+        "align_to_next_pars": {
+          "window_size": 1024,
+          "addx": 500,
+          "addy": 500,
+          "output_level": 5
+        }
+      },
+      { 
+        "skip": false,
+        "filename": "DA5_1200c.jpg",
+        "align_to_next_pars": {
+          "window_size": 1024,
+          "addx": 500,
+          "addy": 500,
+          "output_level": 5
+        }
+      },
+      { 
+        "skip": false,
+        "filename": "DA5_1200d.jpg"
+      }
+    ]
+  }
+}
